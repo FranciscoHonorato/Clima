@@ -1,22 +1,54 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
- color: #b8b8b8;
+  color: #f7f8fd;
 }
 
-body{
-  background-color: rgb(71, 69, 75);
+body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(55, 55, 57);
 }
 
-input{
-  height: 1.6rem;
+
+
+input {
+  height: 1.8rem;
 }
-button{
-  background-color: rgb(79, 106, 240) ;
-  color:white;
+
+button {
+  background-color: rgb(227, 113, 42);
+  color: white;
   border: none;
-  padding: 8px;
+  width: 2.5rem;
+}
+
+button:active {
+  background-color: rgb(184, 89, 17);
+}
+
+
+.card {
+  width: 26rem;
+  min-height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  background-image: linear-gradient(180deg, #4b87f7 60%, #1c2020 100%);
+
+}
+
+
+
+.search {
+  margin-top: .4rem;
+  display: flex;
+  justify-content: center;
+
 }
